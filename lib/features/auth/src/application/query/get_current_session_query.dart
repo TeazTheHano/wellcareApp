@@ -1,0 +1,3 @@
+class GetCurrentSessionQuery {
+  const GetCurrentSessionQuery();
+}

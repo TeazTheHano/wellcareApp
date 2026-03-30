@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wellcare365/providers/auth_provider.dart';
-import 'package:wellcare365/app/theme/app_theme.dart';
+import 'package:wellcare365/shared/presentation/ui_kit.dart';
 
 class LoginPage extends ConsumerWidget {
   const LoginPage({super.key});
@@ -21,7 +21,7 @@ class LoginPage extends ConsumerWidget {
           padding: const EdgeInsets.all(AppSpacing.lg),
           decoration: BoxDecoration(
             color: AppColors.surface,
-            borderRadius: BorderRadius.circular(AppRadius.lg),
+            borderRadius: BorderRadius.all(AppBorder.radiusLg),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.05),
@@ -81,7 +81,7 @@ class LoginPage extends ConsumerWidget {
                   padding: const EdgeInsets.all(AppSpacing.sm),
                   decoration: BoxDecoration(
                     color: AppColors.error.withValues(alpha: 0.1),
-                    borderRadius: BorderRadius.circular(AppRadius.sm),
+                    borderRadius: BorderRadius.all(AppBorder.radiusSm),
                   ),
                   child: Row(
                     children: [

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:wellcare365/app/theme/app_theme.dart';
-
 import 'package:wellcare365/providers/auth_provider.dart';
 import 'package:wellcare365/router/app_router.dart';
+
+import '../shared/presentation/ui_kit.dart';
 
 class Bootstrap extends ConsumerStatefulWidget {
   const Bootstrap({super.key});
@@ -30,7 +30,6 @@ class _BootstrapState extends ConsumerState<Bootstrap> {
     return MaterialApp.router(
       routerConfig: router,
       theme: AppTheme.light(),
-      darkTheme: AppTheme.light(), // TODO: dark
       themeMode: ThemeMode.system,
     );
   }

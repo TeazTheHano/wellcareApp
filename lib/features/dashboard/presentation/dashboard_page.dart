@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wellcare365/providers/auth_provider.dart';
-import 'package:wellcare365/app/theme/app_theme.dart';
+import 'package:wellcare365/shared/presentation/ui_kit.dart';
 
 class DashboardPage extends ConsumerWidget {
   const DashboardPage({super.key});
@@ -168,7 +168,7 @@ class _Card extends StatelessWidget {
       padding: const EdgeInsets.all(AppSpacing.md),
       decoration: BoxDecoration(
         color: AppColors.surface,
-        borderRadius: BorderRadius.circular(AppRadius.md),
+        borderRadius: BorderRadius.all(AppBorder.radiusMd),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withValues(alpha: 0.04),

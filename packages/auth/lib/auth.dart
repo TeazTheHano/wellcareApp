@@ -13,3 +13,6 @@ export 'src/domain/repository/auth_repository.dart';
 export 'src/domain/repository/session_repository.dart';
 
 export 'src/infrastructure/repository/session_repository_impl.dart';
+
+/// Providers (DI)
+export 'src/di/auth_provider.dart';

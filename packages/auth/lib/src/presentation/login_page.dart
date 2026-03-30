@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:wellcare365/providers/auth_provider.dart';
-import 'package:wellcare365/shared/presentation/ui_kit.dart';
+import 'package:auth/auth.dart';
+import 'package:shared_ui/shared_ui.dart';
 
 class LoginPage extends ConsumerWidget {
   const LoginPage({super.key});

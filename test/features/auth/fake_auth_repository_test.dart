@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wellcare365/features/auth/src/infrastructure/repository/fake_auth_repository.dart';
-import 'package:wellcare365/features/auth/src/domain/value_object/auth_context.dart';
+import '../../../packages/auth/lib/src/infrastructure/repository/fake_auth_repository.dart';
+import '../../../packages/auth/lib/src/domain/value_object/auth_context.dart';
 
 void main() {
   late FakeAuthRepository repository;

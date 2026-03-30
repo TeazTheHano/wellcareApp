@@ -37,8 +37,7 @@ import 'package:go_router/go_router.dart';
 import 'package:wellcare365/bootstrap/feature_config.dart';
 
 // Features
-import 'package:wellcare365/features/auth/auth.dart';
-import 'package:wellcare365/providers/auth_provider.dart';
+import 'package:auth/auth.dart';
 
 import 'package:wellcare365/features/dashboard/presentation/dashboard_page.dart';
 

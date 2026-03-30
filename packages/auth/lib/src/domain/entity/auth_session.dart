@@ -1,4 +1,4 @@
-import 'package:wellcare365/features/auth/auth.dart';
+import 'package:auth/auth.dart';
 
 class AuthSession {
   final String accountId;

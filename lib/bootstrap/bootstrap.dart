@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:wellcare365/providers/auth_provider.dart';
-import 'package:wellcare365/router/app_router.dart';
 
-import '../shared/presentation/ui_kit.dart';
+import 'package:wellcare365/router/app_router.dart';
+import 'package:shared_ui/shared_ui.dart';
+
+import 'package:auth/auth.dart';
 
 class Bootstrap extends ConsumerStatefulWidget {
   const Bootstrap({super.key});

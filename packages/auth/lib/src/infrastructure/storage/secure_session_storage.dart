@@ -1,9 +1,7 @@
 import 'dart:convert';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-import '../../domain/entity/auth_session.dart';
-import '../../domain/value_object/auth_context.dart';
-import 'package:wellcare365/providers/auth_provider.dart';
+import 'package:auth/auth.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class SecureSessionStorage implements SessionStorage {
   static const _key = 'auth_session';
@@ -18,6 +16,7 @@ class SecureSessionStorage implements SessionStorage {
   }
 
   @override
+
   Future<AuthSession?> load() async {
     final json = await _storage.read(key: _key);
 

@@ -1,4 +1,4 @@
-import '../../domain/entity/auth_session.dart';
+import '../entity/auth_session.dart';
 
 abstract class SessionStorage {
   Future<void> save(AuthSession session);

@@ -38,6 +38,12 @@ dependencies:
   flutter_secure_storage: ^10.0.0
   go_router: ^17.1.0
   shared_preferences: ^2.5.4
+  
+  auth:
+    path: packages/auth
+
+  shared_ui:
+    path: packages/shared/shared_ui
 
 dev_dependencies:
   flutter_test:

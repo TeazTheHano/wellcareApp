@@ -39,8 +39,6 @@ import 'package:wellcare365/bootstrap/feature_config.dart';
 // Features
 import 'package:auth/auth.dart';
 
-import 'package:wellcare365/features/dashboard/presentation/dashboard_page.dart';
-
 
 // Router
 final appRouterProvider = Provider<GoRouter>((ref) {
@@ -74,11 +72,11 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           builder: (_, _) => const LoginPage(),
         ),
 
-      if (config.dashboard)
-        GoRoute(
-          path: '/dashboard',
-          builder: (_, _) => const DashboardPage(),
-        ),
+      // if (config.dashboard)
+      //   GoRoute(
+      //     path: '/dashboard',
+      //     builder: (_, _) => const DashboardPage(),
+      //   ),
     ],
   );
 });

@@ -1,0 +1,20 @@
+name: onboard
+description: App introduction
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+ 
+  shared_preferences: ^2.5.4
+
+  shared_ui:
+    path: ../shared/shared_ui
+
+  # sau này thêm
+  # shared:
+  #   path: ../shared
